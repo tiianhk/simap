@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simap"
+version = "0.0.1"
+requires-python = ">=3.9"
+
+[project.scripts]
+simap = "simap.cli:main"
+
+[tool.setuptools]
+packages = ["simap"]

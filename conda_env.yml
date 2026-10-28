@@ -1,0 +1,29 @@
+name: simap
+channels:
+  - conda-forge
+dependencies:
+  - python==3.12.*
+  - fluidsynth>=2.4.6
+  - libunrar
+  - pip
+  - pip:
+      - click
+      - platformdirs
+      - pyarrow
+      - psutil
+      - soundfile
+      - tqdm
+      - matplotlib
+      - numpy==1.26.4
+      - py7zr
+      - rarfile
+      - requests
+      - torch==2.9.*
+      - torchvision==0.24.*
+      - torchaudio==2.9.*
+      - laion-clap
+      - sentence-transformers
+      - anthropic
+      - git+https://github.com/tiianhk/pysfizz.git@73fbb0b
+      - git+https://github.com/tiianhk/pyfluidsynth.git@b2cb045
+      - -e .
