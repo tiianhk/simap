@@ -1,14 +1,10 @@
 # SIMAP
 
-A large-scale dataset comprising 97,494 redistributable, sample-based, MIDI-controlled instruments capable of fast audio synthesis. The dataset is released under a non-commercial, research-only agreement with the [Musical Artifacts](https://musical-artifacts.com) platform.
+A large-scale dataset comprising 97,494 redistributable, sample-based, MIDI-controlled instruments capable of fast audio synthesis from the [Musical Artifacts](https://musical-artifacts.com) platform.
 
-| Subset | Number of Instruments |
-|:-|-:|
-| General MIDI | 4,212 |
-| Verified Label | 6,904 |
-| World Instrument | 128 |
+This repository contains code for dataset preparation and preprocessing, audio rendering, instrument search and pytorch data loading.
 
-Dataset:  
+For AI training, this dataset is strictly non-commercial and research-only. Musical Artifacts have agreed to its release on this condition. See the platform's general [AI policy](https://musical-artifacts.com/ai-policy). Every artifact also carries the licence its uploader declared, whatever you use the dataset for. It is recorded per instrument in the license column of the metadata.
+
+Dataset: https://huggingface.co/datasets/tiianhk/simap/  
 Demo Page: https://tiianhk.github.io/simap-demo/
-
-In the context of Musical Artifacts's [AI policy](https://musical-artifacts.com/ai-policy), the SIMAP dataset is permitted to be used for non-commercial, research-only AI model training.
